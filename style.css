@@ -1,0 +1,119 @@
+html{
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.nav1{
+    width: 100vw;
+    height: 70px;
+    background-color:rgb(0, 138, 138);
+    background:radial-gradient(circle, white 10%,  rgb(0, 138, 138) 90%); 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    padding-top:20px; 
+    margin-top: 1px;
+    position: fixed;
+    top:0;
+    
+}
+@media (max-width:600px){
+    .nav1 {
+        flex-direction: column;
+        background-color: greenyellow;
+        height: 30vh;
+
+    }
+
+}
+   
+i{
+    font-size: 60px;
+    padding-left: 10px;
+    padding-top: 5px;
+    flex-direction: left;
+
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+    
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 20px;
+    
+
+    
+}
+header{
+    width: 100vw;
+    height: 100vh;
+   
+    background-image: url(./img/tomas-stanislavsky-Fzffxyt4ACM-unsplash.jpg);
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    position: relative;
+    
+   
+}
+h1{
+    font-size: 30px;
+    color: cadetblue;
+    text-align:left;
+    padding-top: 12px;
+    padding-left: 30px;
+    margin: 40px;
+}
+button{
+    background-color: darkcyan;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 18%;
+    color: greenyellow;
+    text-align: center;
+    justify-content: center;
+   
+    
+   
+    
+
+    
+}
+.nav2{
+    width: 100vw;
+    height: 100px;
+    background-color:rgb(0, 138, 138);
+    background:radial-gradient(circle, white 10%,  rgb(0, 138, 138) 90%);
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-align: left;
+    position:sticky;
+    top:0;
+    
+   
+}
+p{
+    background-color: rgb(184, 184, 184);
+    padding: 30px;
+    margin: 0px;
+    text-justify: distribute;
+}
+footer{
+  font-size: 10px;
+   padding: 5px;
+  background-color: darkcyan;
+  display: flex;
+ justify-content: flex-end;
+}
